@@ -6,7 +6,7 @@
 }
 /* common */
 body{
-    background-color: #1FB0EF;
+    background-color: #0b6174;
     text-align: center;
 }
 .container{
@@ -15,4 +15,38 @@ body{
     height: 100vh;
     margin: auto;
     align-items: center;  
+    margin-top: 300px;
+}
+h1{
+    color: white;
+    font-size: 50px;
+}
+/* style */
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 15px;
+}
+
+.list li{
+    width: calc(100% / 10 - 15px);
+    height: 100px;
+    box-shadow: 0 0 2px 2px;
+    line-height: 100px;
+}
+.default{
+    background-color: #0054c2;
+}
+
+.fizz{
+    background-color: #66ffa3;
+}
+
+.buzz{
+    background-color: #FF9900;
+}
+
+.fizzbuzz{
+    background-color: rgb(255, 0, 106);
 }
